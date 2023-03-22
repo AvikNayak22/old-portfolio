@@ -9,7 +9,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] text-gray-300">
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
@@ -89,7 +89,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]">
             <a
               className="flex justify-between items-center w-full text-gray-200 "
-              href="/"
+              href="https://www.linkedin.com/in/avik-nayak-50b667222/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -97,7 +98,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0E1116]">
             <a
               className="flex justify-between items-center w-full text-gray-200 "
-              href="/"
+              href="https://github.com/AvikNayak22"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -105,7 +107,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
             <a
               className="flex justify-between items-center w-full text-gray-200 "
-              href="/"
+              href="nayakavik19@gmail.com"
+              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>

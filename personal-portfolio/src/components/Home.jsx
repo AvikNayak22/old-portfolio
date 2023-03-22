@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center"
+      className="w-full h-screen bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] flex justify-center items-center"
     >
       {/* container */}
       <div className="max-w-[1000px] max-auto px-8 flex flex-col justify-center h-full">
@@ -18,7 +18,7 @@ const Home = () => {
           I'm a Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I design & build user interfaces.
+          I make user interfaces.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

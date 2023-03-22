@@ -5,13 +5,16 @@ import VisualSort from "../assets/projects/VisualSort.jpg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full sm:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className="w-full sm:h-screen text-gray-300 bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#3a75c2]">
-            Work
+            Projects
           </p>
-          <p className="py-4">//Check out some of my recent work</p>
+          <p className="py-4">//Check out some of my recent Projects</p>
         </div>
 
         {/* Container */}
