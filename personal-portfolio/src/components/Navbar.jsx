@@ -116,7 +116,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#440CCC]">
             <a
               className="flex justify-between items-center w-full text-gray-200 "
-              href="/"
+              href="https://documentcloud.adobe.com/gsuiteintegration/index.html?state=%7B%22ids%22%3A%5B%221g65fF1-EERSxxLK3bqJ1aAQ3M8SuicIB%22%5D%2C%22action%22%3A%22open%22%2C%22userId%22%3A%22109482712198933315268%22%2C%22resourceKeys%22%3A%7B%7D%7D"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
